@@ -1,0 +1,51 @@
+.not-found-box {
+    /* background-image: url('./notapage.jpg'); */
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notapage {
+    height: 350px;
+    margin: 30px;
+}
+
+.back {
+    color:#513d35;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    text-transform: lowercase;
+    white-space: nowrap;
+}
+
+.tryagain {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    text-transform: lowercase;
+    white-space: nowrap;
+    padding-top: 30px;
+}

@@ -1,0 +1,60 @@
+.gallery-item {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  break-inside: avoid;
+  opacity: 0;
+  transition: all 800ms;
+}
+
+.show {
+  opacity: 1;
+}
+
+.gallery-item-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.gallery-item-info > *:where(:not(:first-child)) {
+  margin-top: 3px;
+}
+
+.item-people {
+  font-size: 1rem;
+}
+
+.item-title {
+  color: #333;
+  font-size: 1rem;
+}
+
+.item-classification {
+  color: #7c7c7c;
+  font-size: 0.9rem;
+}
+
+.fav-button-inactive {
+  border: none;
+
+  width: 30px !important;
+  height: 30px !important;
+
+  background: url('heart-inactive.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.fav-button-active {
+  border: none;
+
+  width: 30px !important;
+  height: 30px !important;
+
+  background: url('heart-active.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
